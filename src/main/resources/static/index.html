@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>System Health Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>System Health Dashboard</h1>
+<div class="chart-container-cpu">
+    <div>
+        <h2>CPU Utilization</h2>
+        <canvas id="cpuChart"></canvas>
+    </div>
+    <div>
+        <h2>System Load</h2>
+        <canvas id="loadChart"></canvas>
+    </div>
+</div>
+<div class="chart-container">
+    <h2>System Services</h2>
+    <canvas id="servicesPie"></canvas>
+</div>
+<div>
+    <h2>Kubernetes Services</h2>
+    <table id="k8s-table">
+        <thead>
+        <tr id="k8s-header"></tr>
+        </thead>
+        <tbody id="k8s-body"></tbody>
+    </table>
+</div>
+<script src="dashboard.js"></script>
+</body>
+</html>

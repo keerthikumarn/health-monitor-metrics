@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+.chart-container-cpu { width: 600px; margin-bottom: 40px; display: flex;}
+.chart-container { width: 600px; margin-bottom: 40px;}
+#k8s-table { border-collapse: collapse; width: 100%; }
+#k8s-table th, #k8s-table td { border: 1px solid #ddd; padding: 8px; }
+#k8s-table th { background-color: #f2f2f2; }
