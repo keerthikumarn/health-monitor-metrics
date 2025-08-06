@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class HealthMetricsSummaryResponse {
 
-    private String cpu;
+    private String cpuUsage;
     private String systemLoad;
     private String systemServices;
     private String k8sServices;
