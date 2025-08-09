@@ -1,5 +1,5 @@
 // Replace with your actual API endpoint and credentials
-const apiUrl = '/health/summary?host=HOST_IP&user=<USERNAME>&password=<PASSWORD>';
+const apiUrl = '/health/summary?host=HOST_IP&username=<USERNAME>&password=<PASSWORD>';
 
 fetch(apiUrl)
     .then(res => res.json())
